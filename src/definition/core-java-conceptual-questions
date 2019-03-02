@@ -1,26 +1,43 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.  A programming language is a formal language, which comprises a set of instructions used to produce various kinds of output. Programming languages are used in computer programming to create programs that implement specific algorithms.
 
 
 
 
 What jdk contains or composed of and define each components?
-A.
+A. The JDK is a software package that contains a variety of tools and utilities that make it possible to develop, package, monitor and deploy applications that build for any standard Java platform, including Java Platform, Standard Edition (Java SE); Java Platform, Micro Edition (Java ME); and Java Platform, Enterprise Edition
 
-
+javac: This utility is used to compile Java source code into Java bytecode.
+rmic: This utility creates skeletons and stubs for use in Remote Method Invocation (RMI).
+jar: This compression utility aggregates a multitude of files into a single Java ARchive (JAR) file. The jar utility uses a standard compression algorithm used by all of the most common zip utilities.
+javadoc: This utility can examine the names of classes and the methods contained within a class, as well as consume special annotations in order to create application programming interface (API) documentation for Java code.
+wsgen: This generates various artifacts required by Java API for XML Web Services (JAX-WS).
+javap: This utility disassembles class files, generating information about the methods, properties and attributes of a given compiled component.
 
 
 
 What is IDE?
-A.
+A.  An integrated development environment (IDE) is a software suite that consolidates basic tools required to write and test software.
 What are the IDEs available in the market to support java?
-Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
-Why main is static?
+Explain the entire java life cycle.  As you are aware, computer programs are simply lists of instructions to be carried out by the six different logical units of a computer:
+
+                                     Input Unit recieves data from the input devices such as the keyboard, mouse and any other peripherals
+
+                                     Memory Unit the primary memory unit (Random Access Memory(RAM)) provides fast access storage of computer programs, data from the input devices and data to be sent to the output devices.
+
+                                     Arithmetic and Logic Unit (ALU) peforms the arithmetic calculations on data in memory, such as addition, subtraction, multiplication, division and comparison.
+
+                                     Central Processing Unit (CPU) manages the other units by sending messages to the input unit to read data into the memory unit, informs the ALU which data to operate on, etc.
+
+                                     Storage Unit stores and reads data and programs in long-term storage (e.g. harddisk drive) to be used at a later time.
+
+                                     Output Unit sends information from the computer to make it available outside of the computer, e.g. printer, network device etc.
+what is class?   Class is a blueprint of an object.
+What is object?   An object is an instance of a class.
+What is the entry point of an application?  An application entry point identifies a resource that is an access point to an application. Application entry points are used to control users' access to different versions of an application that is deployed on a platform.
+Why main is static? This is neccessary because main() is called by the JVM before any objects are made. Since it is static it can be directly invoked via the class.
 Which class is the superclass of all classes?
 What is difference between path and classpath variables?
 What is the difference between an Interface and Abstract class?
