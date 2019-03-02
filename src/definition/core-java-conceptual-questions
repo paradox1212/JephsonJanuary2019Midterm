@@ -20,7 +20,7 @@ javap: This utility disassembles class files, generating information about the m
 
 What is IDE?
 A.  An integrated development environment (IDE) is a software suite that consolidates basic tools required to write and test software.
-What are the IDEs available in the market to support java?
+What are the IDEs available in the market to support java? Net beans, intelli j,  Eclipse,  BlueJ,
 Explain the entire java life cycle.  As you are aware, computer programs are simply lists of instructions to be carried out by the six different logical units of a computer:
 
                                      Input Unit recieves data from the input devices such as the keyboard, mouse and any other peripherals
@@ -38,7 +38,7 @@ what is class?   Class is a blueprint of an object.
 What is object?   An object is an instance of a class.
 What is the entry point of an application?  An application entry point identifies a resource that is an access point to an application. Application entry points are used to control users' access to different versions of an application that is deployed on a platform.
 Why main is static? This is neccessary because main() is called by the JVM before any objects are made. Since it is static it can be directly invoked via the class.
-Which class is the superclass of all classes?
+Which class is the superclass of all classes? java.lang.Object class is superclass of all classes.
 What is difference between path and classpath variables?
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
