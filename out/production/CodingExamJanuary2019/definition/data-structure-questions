@@ -61,14 +61,25 @@ What is ArrayIndexOutOfBoundsException in java? When it occurs?
 java.lang.ArrayIndexOutOfBoundsException. ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access array element with an illegal index. This exception is thrown when the index is either negative or greater than or equal to the size of the array.
 
 What are the different ways of copying an array into another array?
-
+e can directly copy one array to another by using Arrays.copyOf() method.
 What is difference between an array and a linked list?
+Difference between Array and Linked List. ... Basically, an array is a set of similar data objects stored in sequential memory locations under a common heading or a variable name. While a linked list is a data structure which contains a sequence of the elements where each element is linked to its next element
 What is DFS and BFS?
+Image result for What is DFS and BFS?
+The breadth first search (BFS) and the depth first search (DFS) are the two algorithms used for traversing and searching a node in a graph.
 What is Recursion?
+Recursion in computer science is a method of solving a problem where the solution depends on solutions to smaller instances of the same problem. The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science.
 What are linear and non linear data Structures?
+In the linear data structure, the data is organized in a linear order in which elements are linked one after the other. ... Examples of the linear data structure are array, queue, stack, linked list, etc. In contrast, tree and graph are the examples of the non-linear data structure.
 What is Big-(O)-notation?
+Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
 Outlined different kind of sorting algorithm with time complexity?
-
+Selection Sort	Ω(n^2)	θ(n^2)	O(n^2)
+Bubble Sort	Ω(n)	θ(n^2)	O(n^2)
+Insertion Sort	Ω(n)	θ(n^2)	O(n^2)
+Heap Sort	Ω(n log(n))	θ(n log(n))	O(n log(n))
+Quick Sort	Ω(n log(n))	θ(n log(n))	O(n^2)
+Merge Sort	Ω(n log(n))	θ(n log(n))	O(n log(n))
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
