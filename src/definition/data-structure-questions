@@ -1,28 +1,67 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. data structures are important because they are like the behind-the-scenes workers that you, as the programmer, are directing. ... Data structures are building blocks of many things you want to do. If you know the uses for each data structure, its weaknesses and strong points then you can easily solve problems.
+
 
 
 What are the various operations that can be performed on different Data Structures?
+A data structure is a particular way of organizing data in a computer so that it can be used efficiently. The most common operations performed on them are: Data insertion.
 List out the areas in which data structures are applied extensively?
+Compiler Design,
+
+· Operating System,
+
+· Database Management System,
+
+· Statistical analysis package,
+
+· Numerical Analysis,
+
+· Graphics,
+
+· Artificial Intelligence,
+
+· Simulation
 what is an Array?
+In computer science, an array data structure, or simply an array, is a data structure consisting of a collection of elements, each identified by at least one array index or key. An array is stored such that the position of each element can be computed from its index tuple by a mathematical formula.
+
+
+
 what is the difference between the Array and ArrayList?
+ First and Major difference between Array and ArrayList in Java is that Array is a fixed length data structure while ArrayList is a variable length Collection class. ... 4) One more major difference between ArrayList and Array is that, you can not store primitives in ArrayList, it can only contain Objects.
 what is LinkedList?
+In computer science, a Linked list is a linear collection of data elements, whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes which together represent a sequence.
 How is an Array different from Linked List?
+Difference between Array and Linked List. ... Basically, an array is a set of similar data objects stored in sequential memory locations under a common heading or a variable name. While a linked list is a data structure which contains a sequence of the elements where each element is linked to its next element.
 what is queue?
+ a queue is a collection in which the entities in the collection are kept in order and the principal operations on the collection are the addition of entities to the rear terminal position, known as enqueue, and removal of entities from the front terminal position, known as dequeue.
 what is stack?
+a stack is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the most recently added element that was not yet removed.
 what is FIFO and LIFO?
+FIFO is an acronym for first in, first out, a method for organizing and manipulating a data buffer, where the oldest (first) entry, or 'head' of the queue, is processed first. ... FIFO's opposite is LIFO, last-in-first-out, where the youngest entry or 'top of the stack' is processed first.
+
 what is the order of complexity?
+Generally, an algorithm has an asymptotic computational complexity. Assuming the input is of size N, we can say that the algorithm will finish at O(N), O(N^2), O(N^3), O(N*log(N)) etc. This means that it is a certain mathematical expression of the size of the input, and the algorithm finishes between two factors of it.
+
 what is the best case to search an element from an array?
+
 what is the worst case to search an element from an array?
 what is tree in data structure?
+a tree is a widely used abstract data type —or data structure implementing this ADT—that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes
+
 what is graph in data structure?
+a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics; specifically, the field of graph theory.
 what is the difference between the HashTable and HashMap?
+(HashMap allows null values as key and value whereas Hashtable doesn't allow nulls). HashMap does not guarantee that the order of the map will remain constant over time. HashMap is non synchronized whereas Hashtable is synchronized.
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
+HashMap in Java works on hashing principle. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key. In hashing, hash functions are used to link key and value in HashMap. Objects are stored by calling put(key, value) method of HashMap and retrieved by calling get(key) method.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+java.lang.ArrayIndexOutOfBoundsException. ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access array element with an illegal index. This exception is thrown when the index is either negative or greater than or equal to the size of the array.
+
 What are the different ways of copying an array into another array?
+
 What is difference between an array and a linked list?
 What is DFS and BFS?
 What is Recursion?

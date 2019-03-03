@@ -45,6 +45,13 @@ No we have to implement the interface or abstract class in a concrete class.
 what is Access Specifier?
 The visibility of classes, methods or variables.
 What is OOP ? Define each feature of java OOP.
+OOP is Object Oriented Programming. Main concepts are encapsulation, polymorphism, inheritance, and abstraction.
+Encapsulation is data hiding.
+Polymorphism is the ability of an object to behave differently in different situation. The two types of polymorphism are
+    overloading and overriding.
+Inheritance is the ability of a class to acquire or inherit properties of other classes.
+Abstraction is implementation hiding .
+
 
 What is Java Package and which package is imported by default?
 A package organizes a set of related classes and interfaces. java.lang package is imported by default, no need to
@@ -166,9 +173,14 @@ Parallel Garbage Collector is used for multi-threaded environments  
 What is JIT stands for?
 Just in time
 Explain Java Heap space and Garbage collection?
+Java objects reside in an area called the heap. The heap is created when the JVM starts up and may increase or
+decrease in size while the application runs. -Garbage collection is the process of looking at heap memory,
+identifying which objects are in use and which are not and deleting the unused objects.
 
 Can you guarantee the garbage collection process?
+no
 What is the difference between stack and heap in Java?
+
 Java objects reside in an area called the heap. The heap is created when the JVM starts up and may increase or
 decrease in size while the application runs. -Garbage collection is the process of looking at heap memory,
 identifying which objects are in use and which are not and deleting the unused objects.
