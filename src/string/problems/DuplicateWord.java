@@ -1,47 +1,36 @@
-import java.util.HashMap;
-import java.util.Map;
-
+package string.problems;
 
 /**
  * Created by mrahman on 04/22/17.
  */
-public class DuplicateWord {
+public class Permutation {
 
-
-    public static void main(String[] args) {
-        String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
-        // first let us split string into words
-
-        String[] words = st.split(" ");
-
-
-
-
-        Map<String,String> wordMap = new HashMap<String,String>();
-
-        for(int i=0;i<words.length;i++) {
-
-            String word = words[i].toUpperCase(); // for case insensitive comparison
-
-            if(wordMap.get(word)!=null) {
-
-                // we found a duplicated word!
-
-                System.out.println("Duplicated/Repeated word:"+word);
-
-            }else {
-
-                wordMap.put(word, word);
-
-            }
-
-        }
-
+    public static void permute(String s)
+    {
+        permute("", s);
     }
+    private static void permute(String pre, String s)
+    {
+        int x = s.length();
+        if(x==0)
+        {
+            System.out.println(pre);
+        }
+        else
+        {
+            for(int i = 0; i < x; i++)
+            {
+                permute(pre + s.charAt(i), s.substring(0,i) + s.substring(i+1, x));
+            }
+        }
+    }
+    public static void main(String[] args) {
 
+        /*
+         * Permutation of String "ABC" is "ABC" "BAC" "BCA" "ACB" "CAB" "CBA".
+         * Write Java program to compute all Permutation of a String
+         *
+         */
+        permute("NFL");
+    }
 }
-
-
-
-
-
